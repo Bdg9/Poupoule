@@ -10,7 +10,7 @@
 */
 
 #include <WiFi.h>
-#include <HTTPClient.h>
+#include <HTTPClient.h>  //Download: https://electronoobs.com/eng_arduino_httpclient.php
 #include "time.h"
 #include <Arduino.h>
 
