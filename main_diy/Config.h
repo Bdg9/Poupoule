@@ -11,6 +11,14 @@ static constexpr int BUTTON_PIN    = 13;
 // ====== DEFAULT SCHEDULE ======
 // All times are in LOCAL time (will be adjusted based on timezone & DST)
 
+int MORNINGREDON_H    = 8;    // 08:00
+int MORNINGREDON_M    = 45;
+int MORNINGALARM_H    = 9;    // 09:00
+int MORNINGALARM_M    = 0;
+int NAPSTART_H        = 11;   // 11:00
+int NAPSTART_M        = 0;
+int NAPEND_H          = 15;   // 15:00
+int NAPEND_M        = 0;
 
 // ====== USER SETTINGS ======
 // Put your WiFi here (or leave empty to skip WiFi)
